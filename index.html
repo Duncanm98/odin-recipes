@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin's Recipe Book</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>    <li>
-                <a href="pages/garlic-bread.html" target="_self">Delicious 15-Minute Vegan Garlic Bread</a>
-            </li>
-            <li>
-                <a href="pages/mashed-potatoes.html" target="_self">Creamy Mashed Potatoes</a>
-            </li>
-            <li>
-                <a href="pages/chicken-enchilada.html" target="_self">Chicken Enchiladas</a>
-            </li>
+    <h1 class="title">Odin Recipes</h1>
+
+    <ul class="recipe-list">    
+        <li>
+            <a href="pages/garlic-bread.html" target="_self">
+                <div class="polaroid container">
+                    <img src="./images/garlic-bread.webp" 
+                    alt="Homemade garlic bread - freshly pulled from the oven with a generous coating of butter and herbs - on top of aluminum foil." 
+                    class="image-opacity">
+                    <p>Vegan Garlic Bread</p>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="pages/mashed-potatoes.html" target="_self">
+                <div class="polaroid container">
+                    <img src="./images/mashed-potatoes.webp" 
+                    alt="Top down view of mashed potatoes inside a bowl that were freshly whipped with bits of potato skins and seasoning visible on the top." 
+                    class="image-opacity">
+                    <p>Creamy Mashed Potatoes</p>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="pages/chicken-enchilada.html" target="_self">
+                <div class="polaroid container">
+                    <img src="./images/chicken-enchilada.jpg" 
+                    alt="Top down view of baked enchiladas inside of a baking dish - topped with enchilada sauce, cheese, sliced avocade, and diced red onion." 
+                    class="image-opacity">
+                    <p>Chicken Enchiladas</p>
+                </div>
+            </a>
+        </li>
+        
     </ul>
 
 </body>
